@@ -1,0 +1,653 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ArtCan-its all about art and artist</title>
+
+  <!--
+    - favicon
+  -->
+  <link rel="shortcut icon" href="./assets/images/logo/favicon.ico" type="image/x-icon">
+
+  <!--
+    - custom css link
+  -->
+  <link rel="stylesheet" href="./assets/css/style-prefix.css">
+  <link rel="stylesheet" href="./assets/css/region.css">
+
+  <!--
+    - google font link
+  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap"
+    rel="stylesheet">
+
+</head>
+
+<body>
+
+
+
+    
+  <!--
+    - HEADER
+  -->
+
+  <header>
+
+    <div class="header-top">
+
+      <div class="container">
+
+        <ul class="header-social-container">
+
+          <li>
+            <a href="https://www.facebook.com/Sudip8492/" class="social-link">
+              <ion-icon name="logo-facebook"></ion-icon>
+            </a>
+          </li>
+
+          <li>
+            <a href="#" class="social-link">
+              <ion-icon name="logo-twitter"></ion-icon>
+            </a>
+          </li>
+
+          <li>
+            <a href="#" class="social-link">
+              <ion-icon name="logo-instagram"></ion-icon>
+            </a>
+          </li>
+
+          <li>
+            <a href="#" class="social-link">
+              <ion-icon name="logo-youtube"></ion-icon>
+            </a>
+          </li>
+
+        </ul>
+
+        <div class="header-alert-news">
+          <!-- <p>
+            <b>Free Shipping</b>
+            This Week Order Over - 	&#8377;1000
+          </p> -->
+        </div>
+
+        <div class="header-top-actions">
+
+          <a href="signUp.html" class="banner-btn">Sign Up</a>
+
+          <div class="category-img-box">
+            <img src="./assets/images/icons/india.svg" alt="india" width="30">
+          </div>
+          <select name="language">
+
+            <option value="en-US">English</option>
+            <option value="">Bengali</option>
+            <option value="">Hindi</option>
+
+          </select>
+
+        </div>
+
+      </div>
+
+    </div>
+
+    <div class="header-main">
+
+      <div class="container">
+
+        <a href="#" class="header-logo">
+          <h1 style="font-family: cursive; color: rgb(7, 60, 43)">ArtCan</h1>
+          <!-- <img src="./assets/images/logo/logo.svg" alt="Artcan" width="120" height="36"> -->
+        </a>
+
+        <div class="header-search-container">
+
+          <input type="search" name="search" class="search-field" placeholder="Enter your product name...">
+
+          <button class="search-btn">
+            <ion-icon name="search-outline"></ion-icon>
+          </button>
+
+        </div>
+
+        <div class="header-user-actions">
+<!-- /////////// profile button//////////// -->
+          <button class="action-btn">
+            <ion-icon name="person-outline"></ion-icon>
+          </button>
+
+          <button class="action-btn">
+            <ion-icon name="heart-outline"></ion-icon>
+            <span class="count">0</span>
+          </button>
+
+          <button class="action-btn">
+            <ion-icon name="bag-handle-outline"></ion-icon>
+            <span class="count">0</span>
+          </button>
+
+        </div>
+
+      </div>
+
+    </div>
+
+    <nav class="desktop-navigation-menu">
+
+      <div class="container">
+
+        <ul class="desktop-menu-category-list">
+
+          <li class="menu-category">
+            <a href="index.html" class="menu-title">Home</a>
+          </li>
+
+          <li class="menu-category">
+            <a href="marketplace.html" class="menu-title">Marketplace</a>
+
+          </li>
+
+          <li class="menu-category">
+            <a href="#" class="menu-title">Region</a>
+
+            <ul class="dropdown-list">
+
+              <li class="dropdown-item">
+                <a href="region1.html">west Bengal</a>
+              </li>
+
+              <li class="dropdown-item">
+                <a href="#">Uttar Pradesh</a>
+              </li>
+
+              <li class="dropdown-item">
+                <a href="#">Assam</a>
+              </li>
+
+              <li class="dropdown-item">
+                <a href="#">Rajasthan</a>
+              </li>
+
+              <li class="dropdown-item">
+                <a href="#">Bihar</a>
+              </li>
+
+            </ul>
+          </li>
+
+
+          <li class="menu-category">
+            <a href="learngrow.html" class="menu-title">learn & grow</a>
+          </li>
+
+          <li class="menu-category">
+            <a href="community.html" class="menu-title">community</a>
+          </li>
+
+        </ul>
+
+      </div>
+
+    </nav>
+
+    <div class="mobile-bottom-navigation">
+
+      <button class="action-btn" data-mobile-menu-open-btn>
+        <ion-icon name="menu-outline"></ion-icon>
+      </button>
+
+      <button class="action-btn">
+        <ion-icon name="bag-handle-outline"></ion-icon>
+
+        <span class="count">0</span>
+      </button>
+      
+      <button class="action-btn">
+        <ion-icon name="home-outline"></ion-icon>
+      </button>
+
+      <button class="action-btn">
+        <ion-icon name="heart-outline"></ion-icon>
+
+        <span class="count">0</span>
+      </button>
+
+      <button class="action-btn" data-mobile-menu-open-btn>
+        <ion-icon name="grid-outline"></ion-icon>
+      </button>
+
+    </div>
+
+    <nav class="mobile-navigation-menu  has-scrollbar" data-mobile-menu>
+
+      <div class="menu-top">
+        <h2 class="menu-title">Menu</h2>
+
+        <button class="menu-close-btn" data-mobile-menu-close-btn>
+          <ion-icon name="close-outline"></ion-icon>
+        </button>
+      </div>
+
+      <ul class="mobile-menu-category-list">
+
+        <li class="menu-category">
+          <a href="index.html" class="menu-title">Home</a>
+        </li>
+
+        <li class="menu-category">
+          <a href="marketplace.html" class="menu-title">Marketplace</a>
+        </li>
+
+        <li class="menu-category">
+
+          <button class="accordion-menu" data-accordion-btn>
+            <p class="menu-title">region</p>
+
+            <div>
+              <ion-icon name="add-outline" class="add-icon"></ion-icon>
+              <ion-icon name="remove-outline" class="remove-icon"></ion-icon>
+            </div>
+          </button>
+
+          <ul class="submenu-category-list" data-accordion>
+
+            <li class="submenu-category">
+              <a href="region1.html" class="submenu-title">West Bengal</a>
+            </li>
+
+            <li class="submenu-category">
+              <a href="#" class="submenu-title">Uttar Pradesh</a>
+            </li>
+
+            <li class="submenu-category">
+              <a href="#" class="submenu-title">Bihar</a>
+            </li>
+
+            <li class="submenu-category">
+              <a href="#" class="submenu-title">Assam</a>
+            </li>
+
+            <li class="submenu-category">
+              <a href="#" class="submenu-title">Rajasthan</a>
+            </li>
+
+          </ul>
+
+        </li>
+
+        <li class="menu-category">
+          <a href="learngrow.html" class="menu-title">learn & grow</a>
+        </li>
+
+        <li class="menu-category">
+          <a href="community.html" class="menu-title">community</a>
+        </li>
+
+
+      </ul>
+
+
+      <a href="signUp.html" class="banner-btn signup">Sign Up</a>
+
+      <div class="category-img-box">
+        <img src="./assets/images/icons/india.svg" alt="India" width="30">
+      </div>
+
+<!-- languages -->
+      <div class="menu-bottom">
+
+       
+
+        <ul class="menu-category-list">
+
+          
+
+          <li class="menu-category">
+
+            <button class="accordion-menu" data-accordion-btn>
+              <p class="menu-title">Language</p>
+
+              <ion-icon name="caret-back-outline" class="caret-back"></ion-icon>
+            </button>
+
+            <ul class="submenu-category-list" data-accordion>
+
+              <li class="submenu-category">
+                <a href="#" class="submenu-title">English</a>
+              </li>
+
+              <li class="submenu-category">
+                <a href="#" class="submenu-title">Bengali</a>
+              </li>
+
+              <li class="submenu-category">
+                <a href="#" class="submenu-title">Hindi</a>
+              </li>
+
+            </ul>
+
+          </li>
+
+          
+
+        </ul>
+
+<!-- languages -->
+
+
+
+        <ul class="menu-social-container">
+
+          <li>
+            <a href="https://www.facebook.com/Sudip8492/" class="social-link">
+              <ion-icon name="logo-facebook"></ion-icon>
+            </a>
+          </li>
+
+          <li>
+            <a href="#" class="social-link">
+              <ion-icon name="logo-twitter"></ion-icon>
+            </a>
+          </li>
+
+          <li>
+            <a href="#" class="social-link">
+              <ion-icon name="logo-instagram"></ion-icon>
+            </a>
+          </li>
+
+          <li>
+            <a href="#" class="social-link">
+              <ion-icon name="logo-youtube"></ion-icon>
+            </a>
+          </li>
+
+        </ul>
+
+      </div>
+
+    </nav>
+
+  </header>
+
+
+<div class="container craft-con">
+    <p>this is product container of selected craft</p>
+    <div class="product-container">
+        <div class="product-card">
+            <div class="product-image">
+              <img src="./assets/images/products/buddha.jpg" alt="" height="200px" width="200px">
+            </div>
+            <div class="product-dtl">
+              <div class="product-ttl">
+                <h4>Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem, voluptatem?</h3>
+                <p> &#8377; 200.00</p>
+                <a href="#"><button>Buy Now</button></a>
+              </div>
+            </div>
+        </div>
+<hr>
+        <div class="product-card">
+          <div class="product-image">
+            <img src="./assets/images/products/buddha.jpg" alt="" height="200px" width="200px">
+          </div>
+          <div class="product-dtl">
+            <div class="product-ttl">
+              <h4>Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem, voluptatem?</h3>
+              
+            </div>
+          </div>
+      </div>
+<hr>
+      <div class="product-card">
+        <div class="product-image">
+          <img src="./assets/images/products/buddha.jpg" alt="" height="200px" width="200px">
+        </div>
+        <div class="product-dtl">
+          <div class="product-ttl">
+            <h4>Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem, voluptatem?</h3>
+            
+          </div>
+        </div>
+    </div>
+<hr>
+    <div class="product-card">
+      <div class="product-image">
+        <img src="./assets/images/products/buddha.jpg" alt="" height="200px" width="200px">
+      </div>
+      <div class="product-dtl">
+        <div class="product-ttl">
+          <h4>Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem, voluptatem?</h3>
+          
+        </div>
+      </div>
+  </div>
+<hr>
+
+
+    </div>
+</div>
+
+
+
+
+
+
+   <!--
+    - FOOTER
+  -->
+
+  <footer>
+
+ 
+
+    <div class="footer-nav">
+
+      <div class="container">
+
+       
+
+        <ul class="footer-nav-list">
+        
+          <li class="footer-nav-item">
+            <h2 class="nav-title">Products</h2>
+          </li>
+        
+          <li class="footer-nav-item">
+            <a href="#" class="footer-nav-link">Prices drop</a>
+          </li>
+        
+          <li class="footer-nav-item">
+            <a href="#newproduct" class="footer-nav-link">New products</a>
+          </li>
+        
+          <li class="footer-nav-item">
+            <a href="#" class="footer-nav-link">Best sales</a>
+          </li>
+        
+          <li class="footer-nav-item">
+            <a href="#" class="footer-nav-link">Contact us</a>
+          </li>
+        
+          <li class="footer-nav-item">
+            <a href="#" class="footer-nav-link">Sitemap</a>
+          </li>
+        
+        </ul>
+
+        <ul class="footer-nav-list">
+        
+          <li class="footer-nav-item">
+            <h2 class="nav-title">Our Company</h2>
+          </li>
+        
+          <li class="footer-nav-item">
+            <a href="#" class="footer-nav-link">sell your art</a>
+          </li>
+        
+          <li class="footer-nav-item">
+            <a href="#blog" class="footer-nav-link">Learn and grow</a>
+          </li>
+        
+          <li class="footer-nav-item">
+            <a href="#" class="footer-nav-link">Terms and conditions</a>
+          </li>
+        
+          <li class="footer-nav-item">
+            <a href="#" class="footer-nav-link">About us</a>
+          </li>
+        
+          <li class="footer-nav-item">
+            <a href="#" class="footer-nav-link">Secure payment</a>
+          </li>
+        
+        </ul>
+
+        <ul class="footer-nav-list">
+        
+          <li class="footer-nav-item">
+            <h2 class="nav-title">Services</h2>
+          </li>
+        
+          <li class="footer-nav-item">
+            <a href="#" class="footer-nav-link">Prices drop</a>
+          </li>
+        
+          <li class="footer-nav-item">
+            <a href="#" class="footer-nav-link">New products</a>
+          </li>
+        
+          <li class="footer-nav-item">
+            <a href="#" class="footer-nav-link">Best sales</a>
+          </li>
+        
+          <li class="footer-nav-item">
+            <a href="#" class="footer-nav-link">Contact us</a>
+          </li>
+        
+          <li class="footer-nav-item">
+            <a href="#" class="footer-nav-link">Sitemap</a>
+          </li>
+        
+        </ul>
+
+        <ul class="footer-nav-list">
+
+          <li class="footer-nav-item">
+            <h2 class="nav-title">Contact</h2>
+          </li>
+
+          <li class="footer-nav-item flex">
+            <div class="icon-box">
+              <ion-icon name="location-outline"></ion-icon>
+            </div>
+
+            <address class="content">
+              172/34A
+              S.N Banerjee Road, kolkata WB , India
+            </address>
+          </li>
+
+          <li class="footer-nav-item flex">
+            <div class="icon-box">
+              <ion-icon name="call-outline"></ion-icon>
+            </div>
+
+            <a href="tel:+607936-8058" class="footer-nav-link">7047315775</a>
+          </li>
+
+          <li class="footer-nav-item flex">
+            <div class="icon-box">
+              <ion-icon name="mail-outline"></ion-icon>
+            </div>
+
+            <a href="mailto:example@gmail.com" class="footer-nav-link">darkmatter3x108@gmail.com</a>
+          </li>
+
+        </ul>
+
+        <ul class="footer-nav-list">
+
+          <li class="footer-nav-item">
+            <h2 class="nav-title">Follow Us</h2>
+          </li>
+
+          <li>
+            <ul class="social-link">
+
+              <li class="footer-nav-item">
+                <a href="#" class="footer-nav-link">
+                  <ion-icon name="logo-facebook"></ion-icon>
+                </a>
+              </li>
+
+              <li class="footer-nav-item">
+                <a href="#" class="footer-nav-link">
+                  <ion-icon name="logo-twitter"></ion-icon>
+                </a>
+              </li>
+
+              <li class="footer-nav-item">
+                <a href="#" class="footer-nav-link">
+                  <ion-icon name="logo-linkedin"></ion-icon>
+                </a>
+              </li>
+
+              <li class="footer-nav-item">
+                <a href="#" class="footer-nav-link">
+                  <ion-icon name="logo-instagram"></ion-icon>
+                </a>
+              </li>
+
+            </ul>
+          </li>
+
+        </ul>
+
+      </div>
+
+    </div>
+
+    <div class="footer-bottom">
+
+      <div class="container">
+
+        <!-- <img src="./assets/images/payment.png" alt="payment method" class="payment-img"> -->
+
+        <p class="copyright">
+          Copyright &copy; <a href="#">ArtCan</a> all rights reserved.
+        </p>
+
+      </div>
+
+    </div>
+
+  </footer>
+
+
+
+
+  <!--
+    - custom js link
+  -->
+  <script src="./assets/js/script.js"></script>
+
+  <!--
+    - ionicon link
+  -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+</body>
+
+</html>
+
+

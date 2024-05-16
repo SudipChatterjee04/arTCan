@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;500;600;700');
+.community-con{
+    margin: 15px;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+.community-con, form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.user-details .input-box input{
+    /* border: none ; */
+    height: 40px;
+    border-top: 2px blue;
+    border-left: 2px blue;
+    border-right: 2px blue;
+    margin-bottom: 8px;
+    border-radius: 4px;
+    padding-left: 10px;
+    text-decoration: none;
+}
+.user-details .input-box input:hover{
+    /* border: none ; */
+    border-bottom: 2px solid;
+    /* border-top: 2px blue;
+    border-left: 2px blue;
+    border-right: 2px blue; */
+}
+
+.gender-details .catagory{
+    display: flex;
+    flex-direction: row;
+}
+form .user-details .input-box input{
+    width: 500px;
+}
+
+.gender-details .radio{
+    display: flex;
+    flex-direction: row;
+    padding: 0 8px 8px 8px;
+}
+.gender-details .gender{
+    padding-left: 5px;
+}
+.user-details .button input{
+    border-radius: 5px;
+    font-size: 20px;
+    border: none;
+    height: 40px;
+}
+.user-details .button input:hover{
+    border-radius: 5px;
+    background-color: green;
+    color: white;
+    font-size: 20px;
+    border: none;
+}
+
+.message{
+    display: flex;
+    flex-direction: column;
+}
+.message textarea{
+    max-width: 500px;
+    margin: 4px 0 8px 0;
+    border: 1px solid;
+    border-radius: 4px;
+    font-size: 15px;
+    padding: 5px;
+}
